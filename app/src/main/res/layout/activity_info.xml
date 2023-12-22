@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_info"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="167dp"
+            android:src="@drawable/fotodiri" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="FAKHRI TRI ATMAJA"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/date"
+                android:text=" Ngawi, 14 November 2001"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/whatsapp"
+                android:text=" 082334163202"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/instagram"
+                android:text=" Fakhritri73"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/github"
+                android:text=" github.com/Fakhri73"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya mempunyai sifat ambisius dalam semua hal, sehingga saya akan mengusahakan sesuatu dengan sungguh sungguh agar apa yang di inginkan tercapai, saya belum cukup pandai dalam beberapa hal seperti dalam beradaptasi dalam lingkungan yang baru, saya memerlukan waktu yang sedikit lama."
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya mempunyai pengalaman kerja, tetapi tidak sejalan dengan perkuliahan yang saya jalani, untuk mengisi waktu luang saya ketika di rumah, saya bekerja di bengkel motor di kota saya, tidak hanya untuk menyalurkan hobi, tetapi juga unutk mencari tambahan uang saku. Terkadang saya juga membantu dalam pengurusan biro wisata."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Dalam hal berpenampilan, saya tergolong orang yang berpenampilan monotone, cenderung menyukai warna warna gelap. Saya mempunyai keunikan yaitu anak informatika yang hobi atau paham dengan otomotif spesifiknya tentang mesin motor."
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

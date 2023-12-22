@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304708319361",
+    "firebase_url": "https://proyekprofesional-default-rtdb.firebaseio.com",
+    "project_id": "proyekprofesional",
+    "storage_bucket": "proyekprofesional.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304708319361:android:a540d0056f084be6f2b580",
+        "android_client_info": {
+          "package_name": "com.example.proyek_profesional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304708319361-f5ppub5nqsqvgucqj6fbrah248i0554n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyek_profesional",
+            "certificate_hash": "62ef2f96e3cc51d5e0b8b7689172a0e41bc51223"
+          }
+        },
+        {
+          "client_id": "304708319361-865k6b0u38pqr3jbo1k3dr1ub7mbc75q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtbkGtu6nyhvamFvFRn-FfnxSsF8GJX5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304708319361-865k6b0u38pqr3jbo1k3dr1ub7mbc75q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

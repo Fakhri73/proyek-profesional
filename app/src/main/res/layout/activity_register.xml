@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradasi_home"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/form">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Register"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <EditText
+                android:id="@+id/register.nama"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/bg_register"
+                android:drawableStart="@drawable/new_user"
+                android:hint=" Masukkan Nama"
+                android:paddingLeft="10dp"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:id="@+id/register.Email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/register.nama"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_register"
+                android:drawableStart="@drawable/new_email"
+                android:hint=" Masukkan Email"
+                android:paddingLeft="10dp"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:id="@+id/register.password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/register.Email"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_register"
+                android:drawableStart="@drawable/new_password"
+                android:hint=" Masukkan Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:id="@+id/btnDaftar"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register.password"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_register"
+                android:text="Daftar"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMasuk"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnDaftar"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_register"
+                android:text="Masuk"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
